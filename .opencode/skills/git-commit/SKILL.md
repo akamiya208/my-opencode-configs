@@ -115,3 +115,4 @@ EOF
 - NEVER skip hooks (--no-verify) unless user asks
 - NEVER force push to main/master
 - If commit fails due to hooks, fix and create NEW commit (don't amend)
+- NEVER update file
