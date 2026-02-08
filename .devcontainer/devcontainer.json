@@ -1,0 +1,21 @@
+{
+  "name": "my-ai-configs",
+  "dockerComposeFile": ["../docker-compose.yaml"],
+  "service": "node",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "fish",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "jasonnutter.search-node-modules",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
