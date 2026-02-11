@@ -8,4 +8,5 @@ RUN apt -y update \
     && apt -y install fish
 
 # Install OpenCode AI CLI
-RUN npm i -g opencode-ai
+RUN npm i -g opencode-ai \
+    && npx --yes oh-my-opencode install --no-tui --claude=no --openai=no --gemini=no --copilot=yes --opencode-zen=no --zai-coding-plan=no

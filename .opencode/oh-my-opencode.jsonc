@@ -1,0 +1,75 @@
+// https://github.com/code-yeongyu/oh-my-opencode/blob/dev/docs/configurations.md
+{ 
+    "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "agents": {
+    // https://github.com/code-yeongyu/oh-my-opencode/blob/dev/docs/features.md#core-agents
+    // https://opencode.ai/docs/models/#%E7%B5%84%E3%81%BF%E8%BE%BC%E3%81%BF%E3%83%90%E3%83%AA%E3%82%A2%E3%83%B3%E3%83%88
+    "sisyphus": {
+      "model": "github-copilot/gpt-5.2-codex",
+      "variant": "xhigh"
+    },
+    "hephaestus": {
+      "model": "github-copilot/gpt-5.2-codex",
+      "variant": "medium"
+    },
+    "oracle": {
+      "model": "github-copilot/gpt-5.2",
+      "variant": "high"
+    },
+    "librarian": {
+      "model": "github-copilot/claude-sonnet-4.5"
+    },
+    "explore": {
+      "model": "github-copilot/gpt-5-mini"
+    },
+    "multimodal-looker": {
+      "model": "github-copilot/gpt-5-mini"
+    },
+    "prometheus": {
+      "model": "github-copilot/gpt-5.2",
+      "variant": "xhigh"
+    },
+    "metis": {
+      "model": "github-copilot/gpt-5.2",
+      "variant": "xhigh"
+    },
+    "momus": {
+      "model": "github-copilot/gpt-5.2",
+      "variant": "medium"
+    },
+    "atlas": {
+      "model": "github-copilot/claude-sonnet-4.5"
+    }
+  },
+  "categories": {
+    // https://github.com/code-yeongyu/oh-my-opencode/blob/dev/docs/configurations.md#built-in-categories
+    "visual-engineering": {
+      "model": "github-copilot/gpt-5.2"
+    },
+    "ultrabrain": {
+      "model": "github-copilot/gpt-5.2-codex",
+      "variant": "xhigh"
+    },
+    "deep": {
+      "model": "github-copilot/gpt-5.2-codex",
+      "variant": "medium"
+    },
+    "artistry": {
+      "model": "github-copilot/gpt-5.2",
+      "variant": "high"
+    },
+    "quick": {
+      "model": "github-copilot/gpt-5-mini"
+    },
+    "unspecified-low": {
+      "model": "github-copilot/claude-sonnet-4.5"
+    },
+    "unspecified-high": {
+      "model": "github-copilot/claude-sonnet-4.5"
+    },
+    "writing": {
+      "model": "github-copilot/gpt-5-mini"
+    }
+  },
+  "disabled_mcps": ["websearch", "context7", "grep_app"]
+}
